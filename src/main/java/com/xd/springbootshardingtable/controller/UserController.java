@@ -29,7 +29,7 @@ public class UserController {
         return userService.getUserList();
     }
 
-    private static AtomicInteger atomicInteger = new AtomicInteger(400000);
+    private static AtomicInteger atomicInteger = new AtomicInteger(500000);
 
     @GetMapping("/insert")
     public Boolean insert() {
