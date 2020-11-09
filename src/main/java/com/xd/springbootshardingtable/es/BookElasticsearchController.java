@@ -17,8 +17,8 @@ import org.springframework.web.bind.annotation.*;
 import static org.elasticsearch.index.query.QueryBuilders.*;
 
 /**
- * @author*@*.com.cn
- * @data 2020/07/17 11:41
+ *demo elasticsearch 增删改查
+ *
  */
 @RestController
 @Api(tags = {"BookElasticsearchController"}, description = "全文检索")
